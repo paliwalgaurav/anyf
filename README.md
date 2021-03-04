@@ -8,6 +8,7 @@ cd client
 npm i
 npm start
 ````
+use http://127.0.0.1:3000 to view in browser
 
 ````
 cd server
