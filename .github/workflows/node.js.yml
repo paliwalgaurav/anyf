@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - name: Checkout to client
-      uses: actions/checkout@v2
+      uses: actions/checkout@master
       with:
         path: client
     - uses: actions/checkout@v2
