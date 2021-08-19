@@ -21,7 +21,7 @@ jobs:
 
     steps:
     - name: Checkout to client
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
         repository: paliwalgaurav/anyf
         submodules: true
