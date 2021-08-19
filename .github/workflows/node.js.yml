@@ -24,7 +24,7 @@ jobs:
     - name: Checkout to client
       uses: actions/checkout@v2
       with:
-        path: main
+        path: client
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
