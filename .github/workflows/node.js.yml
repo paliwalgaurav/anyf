@@ -23,7 +23,7 @@ jobs:
     - name: Checkout to client
       uses: actions/checkout@master
       with:
-        repository: anyf
+        repository: paliwalgaurav/anyf
         path: client
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
