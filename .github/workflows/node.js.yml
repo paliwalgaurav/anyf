@@ -24,6 +24,7 @@ jobs:
       uses: actions/checkout@master
       with:
         repository: paliwalgaurav/anyf
+        submodules: true
         path: './client'
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
