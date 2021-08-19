@@ -20,8 +20,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - working-directory: client
     - uses: actions/checkout@v2
+    - name: Checkout to client
+      uses: actions/checkout@v2
+      with:
+        path: main
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
